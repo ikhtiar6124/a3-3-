@@ -1,0 +1,25 @@
+# a3-3-
+
+#include <stdio.h>
+
+int main()
+{
+    int j, array[5];
+
+    for(j= 0;j< 5;j++)
+    {
+        scanf("%d", &array[j]);
+    }
+    printf("\n");
+
+    for(j=0;j<5;j++)
+
+    {
+        if(array[j]< 10)
+        {
+            printf("%d\n", array[j]);
+        }
+    }
+
+    return 0;
+}
